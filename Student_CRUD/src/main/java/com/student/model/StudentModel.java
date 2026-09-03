@@ -1,11 +1,12 @@
 package com.student.model;
 
+import java.math.BigInteger;
 import java.util.Date;
 
-public class StudenModel {
+public class StudentModel {
     private String altKey;
     private String fullName;
-    private String admitNo;
+    private BigInteger admitNo;
     private Date dob;
     private Date admitDate;
     private Double percentiles;
@@ -27,11 +28,11 @@ public class StudenModel {
         this.fullName = fullName;
     }
 
-    public String getAdmitNo() {
+    public BigInteger getAdmitNo() {
         return admitNo;
     }
 
-    public void setAdmitNo(String admitNo) {
+    public void setAdmitNo(BigInteger admitNo) {
         this.admitNo = admitNo;
     }
 
