@@ -3,7 +3,7 @@ package com.student.model;
 import java.util.Date;
 
 public class StudenModel {
-    private Long altKey;
+    private String altKey;
     private String fullName;
     private String admitNo;
     private Date dob;
@@ -11,11 +11,11 @@ public class StudenModel {
     private Double percentiles;
     private String eligible;
 
-    public Long getAltKey() {
+    public String getAltKey() {
         return altKey;
     }
 
-    public void setAltKey(Long altKey) {
+    public void setAltKey(String altKey) {
         this.altKey = altKey;
     }
 
